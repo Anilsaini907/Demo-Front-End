@@ -569,7 +569,9 @@ function addClassBasedOnURLMatch() {
   // console.log("addClassBasedOnURLMatch");
 const url = window.location.href;
 const lastSegment = url;
-//url.substring(url.lastIndexOf('/') + 1);
+var urltext =url.substring(url.lastIndexOf('/') + 1);
+var text=urltext.charAt(0).toUpperCase()+urltext.slice(1).replace(/\.[^/.]+$/, '');
+document.getElementById("title").textContent = text;
 
 const links = document.querySelectorAll('#myList li a');
  Array.from(links).map(link =>{
