@@ -151,7 +151,7 @@ function logout(){
     window.location.href = "http://localhost/AdminLTE_PHP/index.php";
   }
 // Set session expiration time to 30 minutes (30 * 60 * 1000 milliseconds)
-var sessionExpirationTime = 5* 60 * 1000;
+var sessionExpirationTime = 2* 60 * 1000;
 // Start a timer for session expiration
 var sessionTimer = setTimeout(logout, sessionExpirationTime);
 // Optionally, reset the timer when user interacts with the page (e.g., mouse move or key press)
