@@ -5,6 +5,8 @@
   <title id="title"></title>
 <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Set favicon -->
+   <link rel="icon" type="image/png" href="http://localhost/AdminLTE_PHP/assets/img/amdoc.jpg">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="/AdminLTE_PHP/assets/plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
